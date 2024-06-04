@@ -1,6 +1,6 @@
 import torch.nn as nn
 from sublayer_connection import SublayerConnection
-from encoder import clones
+from misc import clones
 
 class EncoderLayer(nn.Module):
     "Encoder is made up of self-attn and feed forward (defined below)"
