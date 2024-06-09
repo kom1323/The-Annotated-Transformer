@@ -7,7 +7,7 @@ class EncoderDecoder(nn.Module):
     Base for this and many other models.
     """
 
-    def __init__(self, encoder, decoder, src_embed, tgt_embed, generator):
+    def __init__(self, encoder, decoder, src_embed, tgt_embed, generator) -> None:
         super(EncoderDecoder, self).__init__()
         self.encoder = encoder
         self.decoder = decoder
